@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 0,5rem 150px 0 150px;
+}
+
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    border-bottom: 1px solid  hsl(223, 64%, 98%);
+}
+
+.navbar{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    margin-left: 2rem;
+    
+}
+
+.avatar-image{
+    width: 50px;
+    height: 50px;
+    margin-left: 1rem;
+}
+
+.avatar-image img{
+    width: 100%;
+}
+
+.nav-second{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.navbar-items{
+    margin-left: 4rem;
+}
+
+.nav-second{
+    display: flex;
+    justify-content: start;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-link{
+    margin-left: 1rem;
+    color: hsl(219, 9%, 45%);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 500px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 800;
+}
+
+.right{
+    
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    width: 30%;
+    height: 500px;
+    font-size: 14px;
+}
+
+.title{
+    margin: 1rem;
+    color: var(--Pale);
+    font-weight: 800;
+}
+
+.main-p{
+    font-weight: bold;
+    color:  hsl(220, 13%, 13%);
+    margin: 1rem;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card-right{
+    color: hsl(219, 9%, 45%);
+    text-transform: uppercase;
+    margin: 1rem;
+}
+.left-main img{
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+ }
+.left-main{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.lefl-second{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.lefl-second img{
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.bloc{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bloc-left{
+    margin: 1rem;
+    color: hsl(26, 100%, 55%);
+}
+
+.bloc-star{
+    margin: 1rem;
+    color: hsl(220, 13%, 13%);
+    font-weight: bolder;
+}
+
+.box{
+    margin: 1rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    background-color: hsl(26, 100%, 55%);
+    border: none;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.bloc-right{
+    margin: 1rem;
+    color:  hsl(26, 100%, 55%);
+}
+
+.button-bloc{
+    margin: 1rem;
+    
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+
+.price2{
+    margin: 1rem;
+    text-decoration: line-through;
+    color:  hsl(220, 14%, 75%);
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.produit{
+    margin: 1rem;
+    font-weight: bolder;
+    color:  hsl(220, 13%, 13%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.percent{
+    margin: 1rem;
+    background-color:  orange hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+}
+
+:root{
+    color:  hsl(220, 13%, 13%);
+    color: hsl(219, 9%, 45%);
+    color: hsl(220, 14%, 75%);
+    color: hsl(223, 64%, 98%);
+    color: hsl(0, 0%, 100%);
+    color: hsl(26, 100%, 55%);
+    --Pale: orange hsl(25, 100%, 94%);
+}
